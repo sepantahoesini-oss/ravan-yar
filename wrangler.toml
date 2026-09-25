@@ -1,0 +1,16 @@
+name = "ravan-yar"
+main = "src/worker.js"
+compatibility_date = "2026-09-25"
+
+[assets]
+directory = "./public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ravan-yar-db"
+database_id = "PUT_YOUR_D1_DATABASE_ID_HERE"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "ravan-yar-media"
