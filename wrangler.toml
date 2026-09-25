@@ -8,7 +8,7 @@ directory = "./public"
 [[d1_databases]]
 binding = "DB"
 database_name = "ravan-yar-db"
-database_id = "PUT_YOUR_D1_DATABASE_ID_HERE"
+database_id = "b9b8f05e-d8c4-4e9c-8281-50c8199938fa"
 migrations_dir = "migrations"
 
 [[r2_buckets]]
